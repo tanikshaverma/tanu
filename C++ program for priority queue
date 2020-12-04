@@ -1,0 +1,18 @@
+# include <iostream>
+# include <queue>
+using namespace Syd;
+int main()
+{
+Priority_queue<int>p;// variable declaration
+ p.push(10);// inserting 10 in a queue,top=10
+ P.push(30);// inserting 30 in a queue,top=30
+ p.push(20);// inserting 20 in a queue,top=20
+ cout<<" number of elements available in 'p':"
+ << p.size()<<endl;
+ while(!p.empty())
+ {
+ Std::cout<<p.top()<<Std::endl;
+ P.pop();
+ }
+return 0;
+}
